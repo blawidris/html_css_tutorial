@@ -7,6 +7,81 @@
     <title>HTML Form</title>
   </head>
   <body>
-    <h1></h1>
+    <h1>HTML Form Sample</h1>
+    <form>
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="usename"
+          placeholder="Enter username"
+          name="username"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter password"
+          name="password"
+        />
+      </div>
+      <br />
+      <div>
+        <p>Select gender</p>
+        <label for="male">
+          <input type="radio" id="male" name="gender" value="male" /> Male
+        </label>
+        <label for="female">
+          <input type="radio" id="female" name="gender" value="female" /> Female
+        </label>
+        <label for="other">
+          <input type="radio" id="other" name="gender" value="other" /> Other
+        </label>
+      </div>
+      <br />
+      <div>
+        <p>Select Hobbies</p>
+        <label for="football">
+          <input type="checkbox" id="football" name="hobbies" value="male" />
+          Football
+        </label>
+        <label for="music">
+          <input type="checkbox" id="music" name="hobbies" value="music" />
+          music
+        </label>
+        <label for="gaming">
+          <input type="checkbox" id="gaming" name="hobbies" value="gaming" />
+          Gaming
+        </label>
+      </div>
+      <br>
+      <div>
+        <label for="question">Security question:</label>
+        <select name="question" id="question">
+            <option value="what is your favorite color?">what is your favorite color?</option>
+            <option value="what city did your parent meet one another">what city did your parent meet another?</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="andswer" >Security question:</label>
+       <input type="text" placeholder="enter answer" name="answer" id="answer">
+      </div>
+      <br>
+      <br>
+      <div>
+        <label for="bio">Your bio</label>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="enter your bio"></textarea>
+      </div>
+    </form>
   </body>
 </html>

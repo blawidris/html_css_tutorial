@@ -1,0 +1,28 @@
+div {
+  border: 2px solid #ee0000;
+  margin: 20px;
+  padding: 1.5rem;
+}
+
+/*
+========= Inline-block ===========
+- allow the setting of margin top and bottom to an inline element
+- unlike block layout, it does not set add a line-break after an element therefore element can sit next to each other
+*/
+span {
+  margin: 20px;
+  padding: 1rem;
+  display: inline-block;
+}
+
+
+ul{
+    display: block;
+    border: 1px solid #333;
+    list-style: circle;
+}
+
+li{
+        
+    /* display: inline-block; */
+}
