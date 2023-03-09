@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div>
+        <label for="fullName">Full name</label>
+        <input
+          type="text"
+          placeholder="Enter full name"
+          id="fullName"
+          name="f_name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="address">Address </label
+        ><input
+          type="text"
+          placeholder="Enter address"
+          id="address"
+          name="adress"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="city">City</label>
+        <select name="city" id="city">
+          <option value="">Select city</option>
+          <option value="ikeja">Ikeja</option>
+          <option value="ibadan">Ibadan</option>
+          <option value="Surulere">Surulere</option>
+          <option value="lekki">Lekki</option>
+          <option value="arepo">Arepo</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="gender">Gender</label>
+        <span><input type="radio" name="gender" value="m" />Male</span>
+        <span><input type="radio" name="gender" value="f" />Female</span>
+      </div>
+      <br />  
+      <div>
+        <label for="favFood">Favorite Food</label>
+        <span
+          ><input type="checkbox" value="rice" name="favFood[]" /> Rice</span
+        >
+        <span
+          ><input type="checkbox" value="Beans" name="favFood[]" /> Beans</span
+        >
+        <span
+          ><input type="checkbox" value="semo" name="favFood[]" /> Semo</span
+        >
+      </div>
+      <br />
+      <div>
+        <label for="bio">Bio</label>
+        <br>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+      </div>
+      <br />
+      <button>Save</button>
+    </form>
+  </body>
+</html>
